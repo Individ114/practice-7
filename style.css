@@ -706,6 +706,19 @@ body {
   .day-chat__img-picture {
     width: 200px;
   }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(102, 102, 102);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+  }
 }
 @media (max-width: 920px) {
   .day-chat__img-picture {
